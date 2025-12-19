@@ -12,8 +12,13 @@ data partitioning, optimization hyperparameters, and evaluation protocols remain
 identical across implementations.
 
 ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+
 The single-GPU simulated version is included to enable researchers without access to multi-GPU environments to reproduce the experiments under the same algorithmic settings.
+
+
 ！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+
+
 
 --------------------------------------------------
 Overview of Files
