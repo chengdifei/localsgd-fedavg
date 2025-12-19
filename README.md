@@ -24,7 +24,7 @@ The single-GPU simulated version is included to enable researchers without acces
 Overview of Files
 --------------------------------------------------
 
-1. classification_fedavg_single_gpu.py
+1. cls_localsgd_single_gpu.py
 
    - Task: Image classification (e.g., CIFAR-10 / CIFAR-100)
    - Model: ResNet-20 (CIFAR-style)
@@ -36,7 +36,7 @@ Overview of Files
        * Algorithmic reference for Local SGD / FedAvg
 
 
-2. classification_fedavg_multi_gpu.py
+2. cls_localsgd_multi_gpu.py
 
    - Task: Image classification (e.g., CIFAR-10 / CIFAR-100)
    - Model: ResNet-20 (CIFAR-style)
@@ -49,7 +49,7 @@ Overview of Files
        * Matches the single-GPU version algorithmically
 
 
-3. regression_fedavg_single_gpu.py
+3. reg_localsgd_single_gpu.py
 
    - Task: Regression (Boston Housing dataset)
    - Model: Fully-connected network (FC4)
@@ -61,7 +61,7 @@ Overview of Files
        * Verifies Local SGD / FedAvg behavior beyond classification
 
 
-4. regression_fedavg_multi_gpu.py
+4. reg_localsgd_multi_gpu.py
 
    - Task: Regression (Boston Housing dataset)
    - Model: Fully-connected network (FC4)
